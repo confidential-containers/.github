@@ -1,5 +1,7 @@
 ![logo](https://github.com/confidential-containers/.github/blob/main/coco_logo.png)
 
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/5719/badge)](https://bestpractices.coreinfrastructure.org/projects/5719)
+
 ## Welcome to Confidential Containers
 
 Confidential Containers is an open source community working to enable cloud native confidential
