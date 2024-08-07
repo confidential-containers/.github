@@ -20,6 +20,7 @@ delivering Confidential Computing for guest application or data inside the TEE.
 - [**Documentation**](https://github.com/confidential-containers/confidential-containers) Learn about our
 vision, goals, and progress.
 - [**Latest release notes**](https://github.com/confidential-containers/confidential-containers/tree/main/releases) We have a new release every 6 weeks!
+- [**confidentialcontainers.org**](https://confidentialcontainers.org/) Check out our web site
 
 ### Get started
 
