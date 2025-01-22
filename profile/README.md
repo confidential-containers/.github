@@ -19,14 +19,13 @@ delivering Confidential Computing for guest application or data inside the TEE.
 
 ### Find out more
 
-- [**Documentation**](https://github.com/confidential-containers/confidential-containers) Learn about our
+- [**Documentation**](https://confidentialcontainers.org/) Check out our website and learn about our
 vision, goals, and progress.
 - [**Latest release notes**](https://github.com/confidential-containers/confidential-containers/tree/main/releases) We have a new release every 8 weeks!
-- [**confidentialcontainers.org**](https://confidentialcontainers.org/) Check out our web site.
 
 ### Get started
 
-- [**Quickstart Guide**](https://github.com/confidential-containers/confidential-containers/blob/main/quickstart.md)
+- [**Getting Started**](https://confidentialcontainers.org/docs/getting-started/)
 - [**Kubernetes Operator**](https://github.com/confidential-containers/operator)
 Deploy Confidential Containers on a Kubernetes cluster with an operator.
 
