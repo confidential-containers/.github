@@ -7,7 +7,7 @@ contributions.
 
 First off, Confidential Containers (CoCo) is an open source project.
 You probably already knew that, but it's good to be clear
-that we welcome contributions, involvement, and insight from everyone.
+that we welcome contributions, involvement, and insights from everyone.
 Just make sure to follow the [code of conduct](CODE_OF_CONDUCT.md).
 
 CoCo is licensed with [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
@@ -16,18 +16,17 @@ This guide won't cover the architecture of the project, but you'll notice
 that there are many different repositories under the [CoCo
 organization](https://github.com/confidential-containers).
 A CoCo deployment integrates many different components.
-Fortunately the process for contributing to each of these subprojects
-is largely the same.
-There is one major exception. Most CoCo deployments leverage [Kata Containers](https://github.com/kata-containers),
-which is an existing open source project. Kata has its own [Contributor Guide](https://github.com/kata-containers/community/blob/main/CONTRIBUTING.md)
-that you should take a look at.
-You can contribute to CoCo by contributing to Kata, but this guide is focused on
-contributions made to repositories in the CoCo organization.
+We have forks of some of our 3rd party dependencies in our github org.
+If you see "forked from" under the repo name on github, that is probably not 
+where your CoCo issue or feature resides.
+Also note, most CoCo deployments leverage [Kata Containers](https://github.com/kata-containers),
+which is a separate open source project.
+Kata has its own [Contributor Guide](https://github.com/kata-containers/community/blob/main/CONTRIBUTING.md).
 
 ## Connecting with the Community
 
 You might already know exactly what you want to contribute and how.
-If not, if would be useful to interact with existing developers.
+If not, you can interact with existing developers.
 There are several easy ways to do this.
 
 ### Slack Channel
@@ -43,7 +42,8 @@ CoCo also has a weekly community meeting on Thursdays.
 See [the agenda](https://docs.google.com/document/d/1E3GLCzNgrcigUlgWAZYlgqNTdVwiMwCRTJ0QnJhLZGA/)
 for more information.
 The community meeting usually has a packed agenda, but there is always time
-for a few basic questions.
+for a few basic questions. Feel free to speak up at the beginning. We try to
+remember to ask for open questions and blockers as we get started.
 
 ### GitHub Issue
 
@@ -52,6 +52,9 @@ Try to open your issue on the repository that is most closely related
 to your question.
 If you aren't sure which repository is most relevant, you can open an issue
 on this repository.
+(If you see "forked from" under the repo name, that's a third party compoenent
+and you should go to their upstream, rather than filing an issuing on our fork.)
+
 If you're creating an issue that you plan to resolve, consider noting this in
 a comment so other developers know that someone is working on the problem.
 
@@ -187,6 +190,12 @@ While CoCo reviewers tend to be responsive, many have a lot on their plate.
 If your PR is awaiting review, you can tag a reviewer to remind them to take a look.
 You can also ask for review in the CoCo Slack channel.
 
+### Updating your PR and Addressing Feedback
+
+Almost all PRs will need revisions. Please be patient with the process.
+When you update your PR it is best practice to rebase it on top of main.
+Please don't merge main into your PR as this creates merge commit clutter.
+
 ### Continuous Integration
 
 All subprojects have some form of CI and require some checks to
@@ -203,4 +212,5 @@ If the cause is not related to your changes, you can ask a reviewer to re-run
 the tests or help troubleshoot.
 
 
-With this guide, you're well-prepared to contribute effectively to Confidential Containers. We appreciate your involvement in our open-source community!
+With this guide, you're well-prepared to contribute effectively to Confidential
+Containers. We appreciate your involvement in our open-source community!
