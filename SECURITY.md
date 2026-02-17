@@ -7,7 +7,7 @@ Please do not use public issues to report security vulnerabilities.
 To report a vulnerability please select the security tab of the repo and
 click `Report a vulnerability`. 
 This will create a private github issue that CoCo maintainers
-and security champions will be able to see.
+and security managers will be able to see.
 
 The CoCo community aspires to follow the security best practices defined by OpenSSF,
 including responding to vulnerability reports within 14 days.
@@ -31,3 +31,9 @@ CoCo announces security issues and their fixes in the release notes of the patch
 For example, a vulnerability discovered in v0.8 and fixed in v0.8.1 will be announced in the
 release notes for v0.8.1.
 
+# Security Managers
+
+Confidential Containers security managers, along with the Steering Committee, and the maintainers
+of individual repos are expected to engage with security issues.
+More information about these roles is available in the Confidential Containers
+[governance document](https://github.com/confidential-containers/confidential-containers/blob/main/governance.md).
