@@ -58,6 +58,10 @@ and you should go to their upstream, rather than filing an issuing on our fork.)
 If you're creating an issue that you plan to resolve, consider noting this in
 a comment so other developers know that someone is working on the problem.
 
+#### Security
+
+If your issue is related to security, see the [security policy](SECURITY.md).
+
 ## Making Contributions
 
 The mechanics of making a contribution are straightforward.
