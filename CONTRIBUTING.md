@@ -177,6 +177,25 @@ You can tag particular users or link a PR to an issue or another PR.
 If your PR depends on other PRs, you should specify this in the description.
 In general, the more context you provide in the description, the easier it will be for reviewers.
 
+#### Breaking Changes
+
+CoCo components are packaged and consumed downstream, so we try hard to avoid
+breaking users, e.g. by changing APIs, protocols, configuration formats, or
+default behavior in incompatible ways.
+If a breaking change is unavoidable, point it out explicitly in the commit
+message and the PR description, and label the PR `BREAKING-CHANGE`.
+
+Subprojects that track breaking changes can opt in by creating the
+`BREAKING-CHANGE` label and copying [`.github/release.yml`](.github/release.yml)
+into their own repository.
+With this configuration, GitHub's generated release notes list PRs labeled
+`BREAKING-CHANGE` in a separate "Breaking Changes" section and PRs labeled
+`dependencies` in a "Dependency Updates" section.
+Note that unlike issue templates, `release.yml` is not inherited from this
+repository, so each subproject needs its own copy.
+Maintainers should make sure all PRs with breaking changes are labeled before
+a release is created.
+
 
 ### Reviews
 
